@@ -67,8 +67,9 @@ class MainActivity : AppCompatActivity() {
                             resetButton.setOnClickListener {
                                 inputText.text.clear()
                                 Toast.makeText(this, "Reset Has been Executed", Toast.LENGTH_SHORT).show()
-                                OutputView.text="Suggestions Display"
-                            }
+                                OutputView.text="Suggestions Display"}
+                            
+                            val morningdream=listOf("thisisthenewcodebtw")
                         }
 
                     }
